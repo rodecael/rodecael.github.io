@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AziCantine</title>
+    <link rel="stylesheet" href=".//style.css" />
+    <link href="css/all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav id="nav" class="nav">
+      <h1><span>A</span>zicantine</h1>
+      <ul>
+        <li id="label" onclick="mobile()"><i class="fa-solid fa-bars"></i></li>
+        <li>Accueil</li>
+        <a href="#recipies"><li>Recettes</li></a>
+        <a href="#Newsletter"><li>Contact</li></a>
+        <a href="#menu-poster"><li>Menu</li></a>
+        <a href="newsletter"><button>s'inscrire</button></a>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="left">
+        <h1>Mangez à votre faim chez AziCantine</h1>
+        <p class="description">
+          Bienvenue mes chers Etudiants dans votre resto de luxe
+        </p>
+        <button class="btn-primary">Commencer</button>
+      </div>
+      <div class="right">
+        <img
+          src="image/img1.jpg"
+          alt="header photo"
+          width="400px"
+          height="400px"
+        />
+      </div>
+    </header>
+
+    <section class="presentation">
+      <div class="left">
+        <img src="image/img2.jpg" alt="" width="300px" height="300px" />
+      </div>
+      <div class="right">
+        <p class="mini-title">A propos de nous</p>
+        <h1>Que faisons-nous de special dans nos restaurants</h1>
+        <p class="description">
+          la cantine d'azimut accueil des miliers d'etudiant pour satifaire
+        </p>
+      </div>
+    </section>
+
+    <section id="recipies">
+      <p class="mini-title">Nos recettes</p>
+      <h2>Qui sont les plus populaires?</h2>
+      <div class="cards">
+        <div class="card">
+          <img
+            src="image/img3.jpg"
+            alt="Recette"
+            width="200px"
+            height="200px"
+          />
+          <h3>Spaghetti</h3>
+          <div class="rating-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="price">3000FCFA</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="image/img4.jpg"
+            alt="Recette"
+            width="200px"
+            height="200px"
+          />
+          <h3>Tranche de pizza</h3>
+          <div class="rating-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="price">1500FCFA</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="image/img5.jpg"
+            alt="Recette"
+            width="200px"
+            height="200px"
+          />
+          <h3>Pizza</h3>
+          <div class="rating-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="price">10000FCFA</p>
+        </div>
+        <div class="card">
+          <img
+            src="image/img6.jpg"
+            alt="Recette"
+            width="200px"
+            height="200px"
+          />
+          <h3>Salade d'avocat</h3>
+          <div class="rating-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="price">2000FCFA</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu-poster">
+      <!--En-tete-->
+      <div class="menu-header">
+        <h1>tchop</h1>
+        <p class="subtitle">Service de restauration rapide</p>
+        <p>
+          <strong
+            >Nous sommes ouverts chaque jours qu'il y a classe de 7h00 à 17h30
+          </strong>
+        </p>
+        <p>Situé après nkolfoulou en face de la GMI</p>
+        <p>Tel:6 93 49 97 06</p>
+        <h2 class="menu-title">MENU</h2>
+
+        <!--viande blanche-->
+        <div class="menu-category">
+          <h3>VIANDE BLANCHE</h3>
+
+          <div class="menu-item">
+            <span>Quart de poulet braisé</span>
+            <span class="price">1500FCFA</span>
+          </div>
+
+          <div class="menu-item">
+            <span>Poulet DG</span>
+            <span class="price">2500FCFA</span>
+          </div>
+
+          <div class="menu-item">
+            <span>Poulet pané</span>
+            <span class="price">2000FCFA</span>
+          </div>
+        </div>
+        <!--Viande rouge-->
+        <div class="menu-category">
+          <h3>VIANDE ROUGE</h3>
+
+          <div class="menu-item">
+            <span>Steak grillé à la sauce </span>
+            <span class="price">3500FCFA</span>
+          </div>
+
+          <div class="menu-item">
+            <span>Saucisses de viande</span>
+            <span class="price">2000FCFA</span>
+          </div>
+        </div>
+
+        <!--Fruit de mer-->
+        <div class="menu-category">
+          <h3>FRUITS DE MER</h3>
+
+          <div class="menu-item">
+            <span> Gambas à la crème fraiche</span>
+            <span class="price">4000FCFA</span>
+          </div>
+
+          <div class="menu-item">
+            <span>Crevette au cuury</span>
+            <span class="price">2800FCFA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Newsletter">
+      <h1>Inscrivez-vous</h1>
+      <form>
+        <input type="text" />
+        <button>S'abonner</button>
+      </form>
+    </section>
+    <footer>
+      <div class="column important">
+        <h3>Merci a vous</h3>
+        <p>&copy; Copyright AziCantine,2026 | tout droits reserves</p>
+      </div>
+      <div class="column">
+        <h3>Nos servives</h3>
+        <p>Boutique</p>
+        <p>Restaurant</p>
+        <p>Livraison</p>
+      </div>
+      <div class="column">
+        <h3>Recrutement</h3>
+        <p>recrutement@AziCantine.fr</p>
+        <p>postuler pour un emploi</p>
+        <p>job etudiant</p>
+      </div>
+      <div class="column">
+        <h3>Nos locaux</h3>
+        <p>Soa</p>
+        <p>Ngoa-ekelle</p>
+        <p>Omnisport</p>
+        <p>bastos</p>
+      </div>
+    </footer>
+    <script>
+      function mobile() {
+        var x = document.getElementById("nav");
+        if (x.className === "nav") {
+          x.className += "responsive";
+        } else {
+          x.className += "nav";
+        }
+      }
+    </script>
+  </body>
+</html>
